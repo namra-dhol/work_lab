@@ -10,61 +10,126 @@ public class DLL {
             this.rpter = null;
         }
     }
+
     int count = 0;
     Node head = null;
     Node first = null;
     Node tail = null;
-    public void insertAtFirst(int data){
+
+    public void insertAtFirst(int data) {
         Node newNode = new Node(data);
 
-        if(first==null){
+        if (first == null) {
             first = newNode;
-            tail=newNode;
+            tail = newNode;
             count++;
             return;
-        }
-        else{
-            first.lpter=newNode;
-            newNode.rpter=first;
-            first=newNode;
+        } else {
+            first.lpter = newNode;
+            newNode.rpter = first;
+            first = newNode;
             newNode.lpter = null;
             count++;
         }
     }
 
-    public void insertAtLast(int data){
+    public void insertAtLast(int data) {
         Node newNode = new Node(data);
 
-        if(first==null){
-            first=newNode;
-            tail=newNode;
+        if (first == null) {
+            first = newNode;
+            tail = newNode;
             count++;
             return;
-        }
-        else{
-            tail.rpter =newNode;
-            newNode.lpter=tail;
+        } else {
+            tail.rpter = newNode;
+            newNode.lpter = tail;
             tail = newNode;
             count++;
         }
     }
 
-    public void deleteAtPosition(int n){
-        
-    }
+    // public void deleteAtPosition(int n) {
+    // if (first == null) {
+    // System.out.println("linked list is empty :: ");
+    // return;
+    // }
+    // else {
+    // int temp = 1;
+    // Node save = first;
 
-    public void countNode(){
-        System.out.println("count is ::: "+count);
-    }
+    // while ((temp < n) && save.rpter != null) {
+    // save = save.rpter;
+    // temp++;
+    // }
+    // if(save==null){
+    // System.out.println("node not found ::");
+    // }
+    // else if{
 
+    // if (save==tail) {
+    // tail.rpter.lpter=null;
+    // }
+    // }
+    // else{
+    // save.lpter.rpter = save.rpter;
+    // save.rpter.lpter = save.lpter;
+    // }
+    // }
+    // }
 
-    public void display(){
-        Node save = first;
-        while(save.rpter!=null){
-            System.out.print(save.info+"->");
-            save=save.rpter;
+    public void deleteAtPosition(int n) {
+        if (first == null) {
+            System.out.println("Linked list is empty.");
+            return;
         }
-        System.out.print(save.info+"->");
+
+        int temp = 1;
+        Node save = first;
+
+        while ((temp < n) && save.rpter != null) {
+            save = save.rpter;
+            temp++;
+        }
+
+        if (temp != n) {
+            System.out.println("Node not found.");
+            return;
+        }
+
+        if (save == first) {
+            first = save.rpter;
+            if (first != null) {
+                first.lpter = null;
+            } else {
+                tail = null;
+            }
+        }
+        else if (save == tail) {
+            tail = save.lpter;
+            if (tail != null) {
+                tail.rpter = null;
+            } else {
+                first = null;
+            }
+        }
+        else {
+            save.lpter.rpter = save.rpter;
+            save.rpter.lpter = save.lpter;
+        }
+    }
+
+    public void countNode() {
+        System.out.println("count is ::: " + count);
+    }
+
+    public void display() {
+        Node save = first;
+        while (save.rpter != null) {
+            System.out.print(save.info + "->");
+            save = save.rpter;
+        }
+        System.out.print(save.info + "->");
         System.out.print("null");
     }
 
