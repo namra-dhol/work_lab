@@ -109,24 +109,32 @@ ON PERSON.DepartmentID = DEPT.DepartmentID
 
 
 --1. Produce Output Like: <PersonName> earns <Salary> from <DepartmentName> department monthly. (In single column) 
-
+select P.PersonName+'earns'+CAST(P.Salary as varchar)+'from'+D.DepartmentName+'Department Monthly'
+from PERSON P join DEPT D on
+P.DepartmentID=D.DepartmentID 
 
 --2. Find city & department wise total, average & maximum salaries. 
-
+select max(P.Salary)as Max_Sal,avg(P.Salary)as Avg_Sal,P.City,D.DepartmentName
+from PERSON P join DEPT D on
+P.DepartmentID=D.DepartmentID group by City,D.DepartmentName
 
 --3. Find all persons who do not belong to any department. 
-
+select P.PersonName,D.DepartmentName 
+from PERSON P join DEPT D on
+P.DepartmentID=D.DepartmentID where D.DepartmentID is Null
 
 --4. Find all departments whose total salary is exceeding 100000. 
+select sum(P.Salary),D.DepartmentName 
+from PERSON P join DEPT D on
+P.DepartmentID=D.DepartmentID group by D.DepartmentName 
+having sum(P.Salary)>100000
 
+----Part C--
+--List all departments who have no person.
+select departmentname from person p full outer join dept d on d.departmentid = p.departmentid where p.departmentid is null
 
---Part � C: 
+--List out department names in which more than two persons are working.
+select departmentname, count(personname) from dept d join person p gourp by departmentname having count(personname) > 2
 
-
---1. List all departments who have no person. 
-
-
---2. List out department names in which more than two persons are working. 
-
-
---3. Give a 10% increment in the computer department employee�s salary. (Use Update)
+--Give a 10% increment in the computer department employee’s salary. (Use Update)
+update person set salary = salary*1.1 from person join dept on dept.departmentid = person.departmentid  where departmentname = 'computer'
