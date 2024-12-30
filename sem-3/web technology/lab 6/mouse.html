@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onmouseover="chaneColor()" onmouseout="clearColor()" id="abc">hello</h1>
+    <button onclick="changeRed()">red</button>
+    <button onclick="changeGreen()">green</button>
+        <button id="fintime">ƒndtime</button>
+    <script type="text/javascript">
+        function chaneColor(){
+            document.getElementById("abc").style.color="yellow";
+        }
+        function clearColor(){
+            document.getElementById("abc").style.color="black";
+        }
+        function changeRed() {
+            document.body.style.background="red";
+        }
+        function changeGreen() {
+            document.body.style.background="green";
+        }
+        const fintimebutton=document.getElementById('fintime')
+        fintimebutton.addEventListener('click',()=>{
+            var date=new Date();
+            alert(date.toLocaleString())
+        })
+        
+    </script>
+</body>
+</html>

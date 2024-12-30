@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        faculty1 = {
+            name : 'abc',
+            experience : 102,
+            age : 12,
+            mobile : 123456789
+        }
+        faculty2 = {
+            name : 'def',
+            experience : 102,
+            age : 10,
+            mobile : 123455864789
+        }
+        faculty3 = {
+            name : 'abc',
+            experience : 103,
+            age : 12,
+            mobile : 123456789
+        }
+        faculty4 = {
+            name : 'def',
+            experience : 104,
+            age : 14,
+            mobile : 123455864789
+        }
+        faculty = [faculty1,faculty2,faculty3,faculty4]
+        document.write("<table border=1>")
+                for(let i=0;i<faculty.length;i++){
+                    document.write("<tr>")
+                        document.write("<td>"+faculty[i].name+"</td>")
+                        document.write("<td>"+faculty[i].experience+"</td>")
+                        document.write("<td>"+faculty[i].age+"</td>")
+                        document.write("<td>"+faculty[i].mobile+"</td>")
+                    document.write("</tr>")
+                }
+        document.write("</table>")
+    </script>
+</body>
+</html>

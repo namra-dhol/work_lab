@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form">
+        <input type="text" id="txtName" requried>
+        <button onclick="addStudent()">add</button><br>
+        <span id="errmsg">
+
+        </span>
+    </div>
+    <div id="result">
+
+    </div>
+    <script type="text/javascript">
+        students = []
+        idToUpdate = -1;
+        function addStudent(){
+            var name = document.getElementById('txtName');
+            if(name.value==""){
+                name.style.border='2px solid red'
+                document.getElementById('errmsg').innerHTML='Please enter name';
+            }
+            else{
+                name.style.border=''
+                if(idToUpdate>=0){
+                    students[idToUpdate] = name.value;
+                }
+                else{
+                    students.push(name.value)
+                }
+                name.value=''
+                displayStudent()
+            }
+        }
+        function deleteStudent(id){
+            ans=confirm('are you sure')
+            if(ans){
+                students.splice(id,1)
+                displayStudent()
+            }
+        }
+        function setStudent(id){
+            idToUpdate = id;
+            document.getElementById('txtName').value = students[id];
+        }
+        function displayStudent() {
+            temp = document.getElementById('result')
+            tempString = "<table border='1'>";
+            for (i = 0; i < students.length; i++) {
+                tempString += "<tr>";
+                tempString += "<td>";
+                tempString += students[i];
+                tempString += "</td>";
+                tempString += "<td>";
+                tempString += "<button onclick='deleteStudent(" + i + ")'>Delete</button>";
+                tempString += "</td>";
+                tempString += "<td>";
+                tempString += "<button onclick='setStudent(" + i + ")'>Edit</button>";
+                tempString += "</td>";
+                tempString += "</tr>";
+            }
+            tempString += "</table>";
+            temp.innerHTML = tempString;
+        }
+        displayStudent()
+    </script>
+</body>
+
+</html>

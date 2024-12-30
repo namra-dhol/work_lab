@@ -1,0 +1,7 @@
+E:\Asp .net\LAB-5\bin\Debug\LAB-5.exe.config
+E:\Asp .net\LAB-5\bin\Debug\LAB-5.exe
+E:\Asp .net\LAB-5\bin\Debug\LAB-5.pdb
+E:\Asp .net\LAB-5\obj\Debug\LAB-5.csproj.AssemblyReference.cache
+E:\Asp .net\LAB-5\obj\Debug\LAB-5.csproj.CoreCompileInputs.cache
+E:\Asp .net\LAB-5\obj\Debug\LAB-5.exe
+E:\Asp .net\LAB-5\obj\Debug\LAB-5.pdb

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let n = Number(prompt("plese enter a numbe"))
+        var a = []
+        for (let i = 0; i < n; i++) {
+            a.push(Number(prompt("plese enter element")))
+        }
+        for (let i = 0; i < n; i++) {
+            console.log(a[i])
+        }
+        for (let i = 0; i < n; i++) {
+            for (j = i; j < n; j++) {
+                console.log(i)
+                if (a[i] > a[j]) {
+                    let temp = a[i]
+                    a[i] = a[j]
+                    a[j] = temp
+                }
+            }
+        }
+        for (let i = 0; i < n; i++) {
+            document.write(a[i]+' ')
+        }
+    </script>
+</body>
+
+</html>

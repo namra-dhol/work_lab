@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#myImg{
+			position: absolute;
+			left: 100px;
+			top:250px;
+            border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="currentScore">0</h1>
+	<img onclick="addScore()" id="myImg" src="../osama-bin-laden-photograph.jpg" width="100px">
+
+	<script type="text/javascript">
+		currentScore = 0;
+		function displayImage(){
+            if(!intervalPaused){
+                l = parseInt(Math.random()*screen.availWidth)
+                t = parseInt(Math.random()*screen.availHeight)
+                document.getElementById('myImg').style.top = t+"px";
+                document.getElementById('myImg').style.left = l+"px";
+            }
+		}
+		function addScore(){
+			currentScore++;
+			document.getElementById('currentScore').innerHTML = currentScore
+
+            intervalPaused = true;
+			setTimeout(() => {
+				intervalPaused = false;
+			}, 2);
+
+			displayImage();
+		}
+        intervalId = setInterval(displayImage, 20009);
+	</script>
+</body>
+</html>

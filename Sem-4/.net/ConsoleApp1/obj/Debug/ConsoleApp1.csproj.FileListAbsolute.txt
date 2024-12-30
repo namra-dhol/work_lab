@@ -1,0 +1,7 @@
+E:\Asp .net\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+E:\Asp .net\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Asp .net\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Asp .net\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Asp .net\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Asp .net\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Asp .net\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

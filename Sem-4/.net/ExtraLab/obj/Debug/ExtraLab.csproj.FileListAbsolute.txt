@@ -1,0 +1,7 @@
+E:\Asp .net\ExtraLab\obj\Debug\ExtraLab.csproj.AssemblyReference.cache
+E:\Asp .net\ExtraLab\obj\Debug\ExtraLab.csproj.CoreCompileInputs.cache
+E:\Asp .net\ExtraLab\bin\Debug\ExtraLab.exe.config
+E:\Asp .net\ExtraLab\bin\Debug\ExtraLab.exe
+E:\Asp .net\ExtraLab\bin\Debug\ExtraLab.pdb
+E:\Asp .net\ExtraLab\obj\Debug\ExtraLab.exe
+E:\Asp .net\ExtraLab\obj\Debug\ExtraLab.pdb

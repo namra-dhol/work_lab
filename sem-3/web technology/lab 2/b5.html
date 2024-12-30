@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let a = Number(prompt("enter a number"))
+        if (!(a < 100 && a > 9)) {
+            do {
+                a = Number(prompt("plese enter number only 2 dijits"))
+            } while (!(a < 100 && a > 9))
+        }
+        let b=0
+        while(a>9){
+            b=a%10;
+            a=parseInt(a/10);
+        }
+        document.write(Math.pow(a,b))
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel Key Press</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="textInput" placeholder="Type here...">
+    <div id="announcement"></div>
+    <script type="text/javascript">
+        // Get the input field and the announcement container
+        const inputField = document.getElementById('textInput');
+        const announcement = document.getElementById('announcement');
+
+        // Event listener for keydown (when a key is pressed)
+        inputField.addEventListener('keydown', (event) => {
+            const keyPressed = event.key.toLowerCase();
+
+            // Check if the pressed key is a vowel
+            if (['a', 'e', 'i', 'o', 'u'].includes(keyPressed)) {
+                announcement.textContent = `Vowel "${keyPressed}" pressed!`;
+            }
+            else{
+                document.body.style.backgroundColor = '';
+            }
+        });
+
+        // Event listener for keyup (when a key is released)
+        inputField.addEventListener('keyup', () => {
+            document.body.style.backgroundColor = 'blue';
+        });
+
+    </script>
+</body>
+
+</html>

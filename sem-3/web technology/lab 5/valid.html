@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        User name:
+        <input type="text" id="user"><br>
+        password:
+        <input type="text" onfocus="clearVal()" id="result">
+        <br>
+        repeat password:
+        <input type="text" onfocus="clearVal()" id="result2">
+        <br>
+        DOB:
+        <input type="date" onfocus="clearVal()" id="result3">
+        <br>
+        <button onclick="submitBtn(),calcage()">submit</button>
+        </form>
+        <script type="text/javascript">
+        function submitBtn(){
+            name = document.getElementById('user').value;
+			pattern1 = '^[a-zA-z0-9_]{8,30}$';
+
+			let r= new RegExp(pattern1);
+
+			if(r.test(name)){
+                alert('valid')
+			}
+			else{
+				alert("Invalid")
+			}
+            name2 = document.getElementById('result').value;
+            if(name2.value.length()>12 &&name2.value.length()<8){
+                alert('invalid')
+            }
+			else{
+                pattern2 = '^[!@#$%^&*]{1,}[a-zA-z0-9_]{2,}$';
+
+                let r2= new RegExp(pattern2);
+
+                if(r2.test(name)){
+                    alert('valid')
+                }
+                else{
+                    alert("Invalid")
+                }
+            }
+            name3=document.getElementById('result2').value;
+            if(name2!=name3){
+                alert("plese enter same password")
+            }
+        }
+        function calcage(){
+            let DOB=document.getElementById('result3').value
+            DOB=new date(DOB)
+            let today=new Date();
+            let age=today.getFullYear()-DOB.getFullYear()
+            let monthDiff=today.getMonth()-DOB.getMonth()
+            if(monthDiff<0||(monthDiff===0&&today.getDate()<DOB.getDate())){
+                age--;
+            }
+            return age;
+        }
+    </script>
+</body>
+</html>

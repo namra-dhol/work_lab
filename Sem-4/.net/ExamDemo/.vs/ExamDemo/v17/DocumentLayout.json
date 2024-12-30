@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Asp .net\\ExamDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|e:\\asp .net\\examdemo\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\stringdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:stringdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\convertvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:convertvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|E:\\Asp .net\\ExamDemo\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5522B880-A186-4768-A8B3-660E9CA6D67D}|ExamDemo.csproj|solutionrelative:emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConvertValue.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\ConvertValue.cs",
+              "RelativeDocumentMoniker": "ConvertValue.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\ConvertValue.cs",
+              "RelativeToolTip": "ConvertValue.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvx8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:31:41.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringDemo.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\StringDemo.cs",
+              "RelativeDocumentMoniker": "StringDemo.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\StringDemo.cs",
+              "RelativeToolTip": "StringDemo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:19:06.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculator.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\Calculator.cs",
+              "RelativeToolTip": "Calculator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:14:46.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\Emp.cs",
+              "RelativeDocumentMoniker": "Emp.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\Emp.cs",
+              "RelativeToolTip": "Emp.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:00:57.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T04:47:59.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T04:36:57.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\Employee.cs",
+              "RelativeToolTip": "Employee.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T04:29:40.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Asp .net\\ExamDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Asp .net\\ExamDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T04:13:53.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // document.write("hello");
+        let a=Number(prompt("pelase enter a"));
+        let b;
+        b=a;
+        document.write(b);
+        let rev=0;
+        while(a>0){
+            rev=(rev*10)+(a%10);
+            a=parseInt(a/10);
+            document.write(rev);
+        }
+        if(rev==b){
+            alert("palindrome")
+        }
+        else{
+            alert("not")
+        }
+    </script>
+</body>
+</html>

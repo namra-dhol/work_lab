@@ -1,0 +1,7 @@
+E:\Asp .net\ExamDemo\bin\Debug\ExamDemo.exe.config
+E:\Asp .net\ExamDemo\bin\Debug\ExamDemo.exe
+E:\Asp .net\ExamDemo\bin\Debug\ExamDemo.pdb
+E:\Asp .net\ExamDemo\obj\Debug\ExamDemo.csproj.AssemblyReference.cache
+E:\Asp .net\ExamDemo\obj\Debug\ExamDemo.csproj.CoreCompileInputs.cache
+E:\Asp .net\ExamDemo\obj\Debug\ExamDemo.exe
+E:\Asp .net\ExamDemo\obj\Debug\ExamDemo.pdb

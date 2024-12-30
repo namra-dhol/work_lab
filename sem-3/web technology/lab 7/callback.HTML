@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function hello(){
+            document.write('hello')
+        }
+        function add(a,callback,b=1){
+            document.write(a+b)
+            callback()
+        }
+        add(5,hello,7)
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // document.write("hello");
+        let a=Number(prompt("pelase enter a"));
+        let b;
+        b=a;
+        let count=0;
+        while(a>0){
+            a=parseInt(a/10);
+            count++;
+        }
+        console.log(count);
+        a=b;
+        let ans=0;
+        let n=0
+        for(let i=1;i<=count;i++){
+            n=a%10;
+            ans+=Math.pow(n,count);
+            a=parseInt(a/10);
+        }
+        console.log(ans);
+        if(ans==b){
+            alert("armstrong")
+        }
+        else{
+            alert("not")
+        }
+    </script>
+</body>
+</html>
