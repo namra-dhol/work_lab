@@ -1,0 +1,87 @@
+﻿@model DataTable
+@using System.Data
+
+<div class="pagetitle">
+    <h1></h1>
+    <nav>
+        <ol class="breadcrumb">
+
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Country</li>
+            <li class="breadcrumb-item active">Country List</li>
+        </ol>
+    </nav>
+</div>
+
+<section class="section">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Country List</h5>
+            <div class="d-flex justify-content-between">
+
+                <a class="btn btn-primary" asp-controller="Country" asp-action="AddEditCountry"> Add Country </a>
+            </div>
+            <table class="table datatable">
+                <thead class="align-content-center">
+                    <tr>
+                        <th>CountryName</th>
+                        <th class="">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (DataRow row in Model.Rows)
+                    {
+                        <tr>
+                            <td>@row["CountryName"]</td>
+                            <td>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a asp-controller="Country" asp-action="AddEditCountry" asp-route-CountryID="@row["CountryID"]" class="btn btn-outline-success btn-sm me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+                                    <a asp-controller="Country" asp-action="DeleteCountry" asp-route-CountryID="@row["CountryID"]" class="btn btn-outline-danger btn-sm sweet-confirm">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            Swal.fire({
+            title: '<span style="color: #166534; font-family: Roboto, sans-serif;">@TempData["MessageType"]!</span>',
+            html: '<p style="color: #4b5563; font-family: Roboto, sans-serif;">@TempData["SuccessMessage"]</p>',
+            icon: 'success',
+            iconColor: '#16a34a', // Green success icon
+            background: '#f0fdf4', // Light green background
+            confirmButtonColor: '#2563eb',
+            confirmButtonText: 'OK'
+            })
+        })
+    </script>
+    TempData["MessageType"] = null;
+    TempData["SuccessMessage"] = null;
+}
+
+@if (@TempData["ErrorMessage"] != null)
+{
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            Swal.fire({
+            title: '@TempData["MessageType"]!',
+            text: '@TempData["ErrorMessage"]',
+            icon: 'error',
+            confirmButtonText: 'Cool'
+            })
+        })
+    </script>
+    TempData["MessageType"] = null;
+    TempData["ErrorMessage"] = null;
+}

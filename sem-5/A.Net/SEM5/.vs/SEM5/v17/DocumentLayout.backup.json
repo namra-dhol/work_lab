@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Theme-convertation\\SEM5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\models\\totalcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:models\\totalcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\country\\countrylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\country\\countrylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\state\\statelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\state\\statelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\state\\addeditstate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\state\\addeditstate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\views\\country\\addeditcountry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:views\\country\\addeditcountry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|f:\\theme-convertation\\sem5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{160E56D2-1B8D-4014-9EA5-919DB8CC7352}|SEM5.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:55:59.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T07:46:44.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T07:46:26.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TotalCount.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Models\\TotalCount.cs",
+              "RelativeDocumentMoniker": "Models\\TotalCount.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Models\\TotalCount.cs",
+              "RelativeToolTip": "Models\\TotalCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:45:33.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:42:43.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StateList.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\State\\StateList.cshtml",
+              "RelativeDocumentMoniker": "Views\\State\\StateList.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\State\\StateList.cshtml",
+              "RelativeToolTip": "Views\\State\\StateList.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwFUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:23:46.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddEditState.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\State\\AddEditState.cshtml",
+              "RelativeDocumentMoniker": "Views\\State\\AddEditState.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\State\\AddEditState.cshtml",
+              "RelativeToolTip": "Views\\State\\AddEditState.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:23:18.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StateModel.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Models\\StateModel.cs",
+              "RelativeDocumentMoniker": "Models\\StateModel.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Models\\StateModel.cs",
+              "RelativeToolTip": "Models\\StateModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:21:38.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateController.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Controllers\\StateController.cs",
+              "RelativeToolTip": "Controllers\\StateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:21:20.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEditCountry.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\Country\\AddEditCountry.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\AddEditCountry.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\Country\\AddEditCountry.cshtml",
+              "RelativeToolTip": "Views\\Country\\AddEditCountry.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:20:34.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CountryModel.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Models\\CountryModel.cs",
+              "RelativeDocumentMoniker": "Models\\CountryModel.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Models\\CountryModel.cs",
+              "RelativeToolTip": "Models\\CountryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:17:33.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountryList.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\Country\\CountryList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\CountryList.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\Country\\CountryList.cshtml",
+              "RelativeToolTip": "Views\\Country\\CountryList.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:12:33.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CountryController.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "Controllers\\CountryController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowHgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:12:02.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T02:34:50.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\City\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\Index.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\City\\Index.cshtml",
+              "RelativeToolTip": "Views\\City\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T02:34:02.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CityModel.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Models\\CityModel.cs",
+              "RelativeDocumentMoniker": "Models\\CityModel.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Models\\CityModel.cs",
+              "RelativeToolTip": "Models\\CityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:31:42.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T07:30:26.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CityController.cs",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Controllers\\CityController.cs",
+              "RelativeToolTip": "Controllers\\CityController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:29:43.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CityAddEdit.cshtml",
+              "DocumentMoniker": "F:\\Theme-convertation\\SEM5\\Views\\City\\CityAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\CityAddEdit.cshtml",
+              "ToolTip": "F:\\Theme-convertation\\SEM5\\Views\\City\\CityAddEdit.cshtml",
+              "RelativeToolTip": "Views\\City\\CityAddEdit.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T02:42:29.727Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

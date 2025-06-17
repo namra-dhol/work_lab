@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "HospitalManagement.Controllers.HospitalAPIController",
+    "Method": "GetHospitals",
+    "RelativePath": "api/HospitalAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.Controllers.HospitalAPIController",
+    "Method": "Create",
+    "RelativePath": "api/HospitalAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospital",
+        "Type": "HospitalManagement.Models.HospitalMaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.Controllers.HospitalAPIController",
+    "Method": "GetHospitalById",
+    "RelativePath": "api/HospitalAPI/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.Controllers.HospitalAPIController",
+    "Method": "DeleteHospitalById",
+    "RelativePath": "api/HospitalAPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.Controllers.HospitalAPIController",
+    "Method": "UpdateHospital",
+    "RelativePath": "api/HospitalAPI/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "hst",
+        "Type": "HospitalManagement.Models.HospitalMaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HospitalManagement.Models.HospitalMaster",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+﻿@model CountryModel
+
+<div class="pagetitle">
+    <h1>Add Country</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item">Country</li>
+            <li class="breadcrumb-item active">Add Country</li>
+        </ol>
+    </nav>
+</div>
+
+<section class="section">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Add Country</h5>
+
+            <form method="post" asp-controller="Country" asp-action="CountrySave">
+
+                <div class="row mb-3" hidden>
+                    <label for="inputText" class="col-sm-3 col-form-label"><span class="text-danger fs-5">*</span> Country ID:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" asp-for="CountryID">
+                        <span asp-validation-for="CountryID" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="inputText" class="col-sm-3 col-form-label"><span class="text-danger fs-5">*</span> Country Name:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" asp-for="CountryName" autofocus>
+                        <span asp-validation-for="CountryName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-9">
+                        <button class="btn btn-success" type="submit">Save</button>
+                        <a class="btn btn-danger" asp-controller="Country" asp-action="CountryList">Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
