@@ -3,10 +3,10 @@ import java.util.*;
 public class AdjMatrix {
     public static void main(String[] args) {
         
-        int[][] arr = {{0, 1}, {0, 2}, {1, 2}, {2, 0}};
+        int[][] arr = {{1, 2}, {2, 3}, {4, 5}, {1, 5}};
         
       
-        int v = 4; 
+        int v = 6; 
         
         
         int[][] adjMatrix = new int[v][v];
@@ -15,6 +15,7 @@ public class AdjMatrix {
             int from = arr[i][0];
             int to = arr[i][1];
             adjMatrix[from][to] = 1;
+             adjMatrix[to][from] = 1;
         }
 
         System.out.println("Adjacency Matrix:");

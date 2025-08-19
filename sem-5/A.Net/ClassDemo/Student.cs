@@ -20,4 +20,16 @@ namespace ClassDemo
 
         public int Sem {  get; set; }
     }
+
+    public class Course
+    {
+        public int Rno { get; set; }
+        public string CourseName { get; set; }
+        public int Credits { get; set; }
+
+        public override string ToString()
+        {
+            return $"Rno: {Rno}, Course: {CourseName}, Credits: {Credits}";
+        }
+    }
 }
